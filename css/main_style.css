@@ -296,7 +296,6 @@ nav ul li a.active::before {
     background-color: #fff;
     padding: 20px;
     border-radius: 25px;
-    cursor: pointer;
     transition-property: background-color, border-radius, box-shadow;
     transition-duration: 0.4s;
     transition-timing-function: linear;
@@ -306,10 +305,19 @@ nav ul li a.active::before {
 }
 
 .measure_box:hover {
-    background-color: #ffffff;
+    background-color: #faf9fe;
     border-radius: 0px;
-    box-shadow: 0 10px 50px rgb(0 0 0 / 12%);
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 37%);
 }
 .measure_icon {
     margin-bottom: 20px;
+}
+
+/* Partner With Us */
+.partner_with_us {
+    padding: 70px 0;
+}
+.partner_row {
+    max-width: 1230px;
+    margin: 0 auto;
 }
