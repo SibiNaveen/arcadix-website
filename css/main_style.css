@@ -143,6 +143,57 @@ nav ul li a.active::before {
     bottom: -6px;
 }
 
+/* Mega Menu */
+
+ul > li > div.mega_menu_block{
+    display: block;
+}
+
+
+a.mega-menu{
+    color: #99CC00;
+    position: relative;
+}
+
+/* .mega_menu_block{
+    visibility: hidden;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 0px;
+    min-width: 48.8%;
+    max-width: 100%;
+    color: #333;
+    left: 0px;
+    box-shadow: 1px 1px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    z-index: 3;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+} */
+/* .mega_menu:hover .mega_menu_block {
+    background-color: #f9f9f9;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+} */
+
+
 /* Banner Section */
 
 .banner_bg {
