@@ -1,0 +1,124 @@
+@media only screen and (max-width: 767px){
+
+    /* column */
+    .col-12, .col-6, .col-2, .col-3, .col-4, .col-8, .col-1{
+        width: 100%!important;
+    }
+
+    /* button */
+    button {
+        padding: 11px 20px!important;
+        max-width: 100%!important;
+    }
+
+    /* font */
+    h1 {
+        font-size: 35px!important;
+        line-height: 45px!important;
+    }
+    h2{
+        font-size: 30px!important;
+        line-height: 40px!important;
+    }
+    h3 {
+        font-size: 20px!important;
+        line-height: 30px!important;
+    }
+    h5 {
+        font-size: 15px!important;
+        line-height: 25px!important;
+    }
+    p{
+        font-size: 15px!important;
+        line-height: 20px!important;
+    }
+
+
+
+    /* Header */
+    main{
+        margin: 0 15px;
+    }
+
+    header{
+        max-width: 100%!important;
+    }
+    .logo img{
+        width: 135px;
+    }
+    nav{
+        display: none;
+    }
+
+
+    /* Banner */
+    .banner_bg{
+        max-width: 100%;
+    }
+    .banner_inner {
+        padding: 0 35px!important;
+    }
+    .cta_buttons {
+        display: flex!important;
+        gap: 1rem!important;
+        flex-direction: column;
+    }
+
+
+    /* testdrive */
+    .testdrive {
+        max-width: 100%!important;
+        margin: 0 15px!important;
+    }
+
+    /* About */
+    .about_section {
+        margin: 0 15px;
+    }
+    .about_row{
+        max-width: 100%!important;
+        margin: 0 15px!important;
+    }
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){}
+
+@media only screen and (min-width: 960px) and (max-width: 1239px){}
+
+/* @media only screen and (max-width: 959px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul {
+        display: block!important;
+        position: fixed;
+        z-index: 999;
+        width: 30%;
+        height: 100%;
+        background-color: #000000;
+        top: 0px;
+        right: 0%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        color: #ffffff!important;
+    }
+    #check:checked ~ ul{
+        right: 0;
+    }
+}
+@media only screen and (min-width: 960px){
+    .checkbtn{
+        display: none;
+    }
+
+} */
+
+@media only screen and (min-width: 1240px){
+}
