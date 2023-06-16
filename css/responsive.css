@@ -33,8 +33,6 @@
         line-height: 20px!important;
     }
 
-
-
     /* Header */
     main{
         margin: 0 15px;
@@ -42,14 +40,11 @@
 
     header{
         max-width: 100%!important;
+        position: relative;
     }
     .logo img{
         width: 135px;
     }
-    nav{
-        display: none;
-    }
-
 
     /* Banner */
     .banner_bg{
@@ -69,6 +64,16 @@
     .testdrive {
         max-width: 100%!important;
         margin: 0 15px!important;
+        padding: 70px 30px !important;
+        text-align: center;
+    }
+    .testdrive_box {
+        background-color: #faf9fe!important;
+        border-radius: 0px!important;
+        box-shadow: 0 10px 50px rgb(0 0 0 / 12%)!important;
+    }
+    .testdrvie_content {
+        padding: 0!important;
     }
 
     /* About */
@@ -77,48 +82,173 @@
     }
     .about_row{
         max-width: 100%!important;
-        margin: 0 15px!important;
+        padding: 0 30px;
+        text-align: center;
     }
     
+    /* customers */
+    .customers {
+        max-width: 100%!important;
+        margin: 0 15px!important;
+        padding: 70px 30px!important;
+        text-align: center;
+    }
+        
+    .customers_logo_mobile{
+        display: block!important;
+    }
 
+    .customers_logo_mobile .col-3{
+        display: flex!important;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .customers_box {
+        filter: none!important;
+    }
+    .box_top_1, .box_top_2 {
+        margin-top: 0%!important;
+    }
+
+    /* Measure */
+    .measure_row {
+        max-width: 100%!important;
+        padding: 0 30px!important;
+        margin: 0 15px!important;
+    }
+    .measure_details{
+        display: block!important;
+    }
+
+    /* Partner */
+    .partner_with_us {
+        margin: 0 15px;
+    }
+    .partner_row {
+        max-width: 100%!important;
+        margin: 0 0px!important;
+        display: block!important;
+        padding: 0 30px;
+    }
+    .partner_logos_bg {
+        margin-top: 5%!important;
+        margin-bottom: 0%!important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .partner_logos_bg .col-4{
+        width: 45%!important;
+    } 
+    .partner_row .col-8 {
+        padding: 1px 0 20px!important;
+        margin: 0!important;
+        max-width: 100%;
+        background-image: none!important;
+    }
+    .partner_icon {
+        padding: 10px 0!important;
+    }
+
+    /* waiting */
+    .waiting_section {
+        padding: 0px 0 70px!important;
+        margin: 0 15px;
+    }
+    .waiting_row {
+        max-width: 100%!important;
+        margin: 0 auto!important;
+        background-image: none!important;
+        background: linear-gradient(90deg, rgba(153,204,0,0.4598214285714286) 0%, rgba(252,169,53,1) 100%)!important;
+        display: block!important;
+        padding: 30px;
+        text-align: center;
+    }
+    .waiting_row .col-6 {
+        padding: 0!important;
+    }
+
+
+    /* Footer */
+    .footer_row {
+        max-width: 100%!important;
+        display: block!important;
+        margin: 0 15px!important;
+        padding: 0 30px;
+    }
+    .footer_row .col-4 {
+        margin-bottom: 40px;
+    }
+    .copy_row {
+        max-width: 100%!important;
+        display: block!important;
+        text-align: center;
+    }
+    .social_icon {
+        justify-content: center!important;
+    }
+    .social_icon ul {
+        padding-inline-start: 0px;
+    }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){}
 
 @media only screen and (min-width: 960px) and (max-width: 1239px){}
 
-/* @media only screen and (max-width: 959px){
-    .checkbtn{
-        display: block;
-    }
-    nav ul {
+@media only screen and (max-width: 959px){
+    .mobile_navbar_btn{
         display: block!important;
-        position: fixed;
         z-index: 999;
-        width: 30%;
-        height: 100%;
-        background-color: #000000;
-        top: 0px;
-        right: 0%;
-        text-align: center;
-        transition: all .5s;
     }
-    nav ul li{
+    .navbar {
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex!important;
+        justify-content: center;
+        z-index: 999;
+        padding: 30px 0 0;
+        transform: translate(100%);
+        transition: all 0.3s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        position: fixed;
+    }
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile_menu_active .navbar{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .mobile_menu_active 
+    .mobile_navbar_btn 
+    .mobile_nav_icon[name="close-outline"]{
         display: block;
+        position: fixed;
+        right: 15px;
+        top: 15px;
     }
-    nav ul li a{
-        color: #ffffff!important;
+    .mobile_menu_active 
+    .mobile_navbar_btn 
+    .mobile_nav_icon[name="menu-outline"]{
+        display: none;
     }
-    #check:checked ~ ul{
-        right: 0;
+    nav{
+        display: none;
     }
 }
 @media only screen and (min-width: 960px){
-    .checkbtn{
-        display: none;
-    }
 
-} */
 
-@media only screen and (min-width: 1240px){
 }
+

@@ -18,14 +18,11 @@
 
     <div class="wrapper">
         <!-- Header -->
-        <header>
-            <a href="#"><img src="img/ArcadixLogoTop.gif" alt="Arcadix" width="180"></a>
-
+        <header class="header">
+            <div class="logo">
+                <a href="#"><img src="img/ArcadixLogoTop.gif" alt="Arcadix" width="180"></a>
+            </div>
             <nav>
-                <!-- <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fa fa-bars"></i>
-                </label> -->
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#" class="mega_menu">Product</a>
@@ -166,6 +163,23 @@
                     <li><button>Customer Portal</button></li>
                 </ul>
             </nav>
+            <!-- Mobile Menu -->
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Partner</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><button>Customer Portal</button></li>
+                </ul>
+            </div>
+            <div class="mobile_navbar_btn">
+                <ion-icon name="menu-outline" class="mobile_nav_icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile_nav_icon"></ion-icon>
+            </div>
+
         </header>
         <!-- Banner -->
         <main>
@@ -268,7 +282,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-8 customers_logo">
+            <div class="col-8 customers_logo customers_logo_mobile">
                 <div class="col-3">
                     <div class="customers_box">
                         <div class="customers_icon">
@@ -514,7 +528,9 @@
 
     <!-- Script -->
     <script src="js/script.js"></script>
-    <script src="https://kit.fontawesome.com/97cdb48d04.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/dc6c9de6db.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

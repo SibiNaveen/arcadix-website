@@ -1,7 +1,12 @@
+html{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     font-family: 'Jost', sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
 }
 img,
 picture,
@@ -222,16 +227,34 @@ a.mega_menu_content img {
 }
 
 /* Mobile Menu */
-.checkbtn {
-    font-size: 30px;
-    color: #000;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
+.navbar{
+    display: none;
+}
+
+.mobile_navbar_btn{
+    display: none;
+    background: transparent;
     cursor: pointer;
 }
-#check{
+.mobile_nav_icon {
+    width: 2rem;
+    height: 2rem;
+    color: #000000;
+}
+.mobile_nav_icon[name="close-outline"] {
     display: none;
+}
+.navbar ul{
+    padding-inline-start: 0px;
+}
+ul.navbar-list li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar-list li a{
+    color: #444F60;
+    text-decoration: none;
 }
   
 
