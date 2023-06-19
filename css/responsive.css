@@ -17,12 +17,12 @@
         line-height: 45px!important;
     }
     h2{
-        font-size: 30px!important;
-        line-height: 40px!important;
+        font-size: 28px!important;
+        line-height: 38px!important;
     }
     h3 {
-        font-size: 20px!important;
-        line-height: 30px!important;
+        font-size: 18px!important;
+        line-height: 28px!important;
     }
     h5 {
         font-size: 15px!important;
@@ -75,10 +75,15 @@
     .testdrvie_content {
         padding: 0!important;
     }
+    .drive_icon {
+        margin: 0 auto 20px!important;
+        width: 90px!important;
+    }
 
     /* About */
     .about_section {
         margin: 0 15px;
+        padding: 60px 0px!important;
     }
     .about_row{
         max-width: 100%!important;
@@ -111,6 +116,9 @@
     }
 
     /* Measure */
+    .measure {
+        padding: 70px 0px!important;
+    }
     .measure_row {
         max-width: 100%!important;
         padding: 0 30px!important;
@@ -123,6 +131,7 @@
     /* Partner */
     .partner_with_us {
         margin: 0 15px;
+        padding: 70px 0px!important;
     }
     .partner_row {
         max-width: 100%!important;
@@ -169,6 +178,9 @@
 
 
     /* Footer */
+    footer {
+        padding: 40px 0px 0!important;
+    }
     .footer_row {
         max-width: 100%!important;
         display: block!important;
@@ -192,9 +204,6 @@
     
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px){}
-
-@media only screen and (min-width: 960px) and (max-width: 1239px){}
 
 @media only screen and (max-width: 959px){
     .mobile_navbar_btn{
@@ -247,8 +256,283 @@
         display: none;
     }
 }
-@media only screen and (min-width: 960px){
 
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+    /* font */
+    h1 {
+        font-size: 45px!important;
+        line-height: 55px!important;
+    }
+    h2{
+        font-size: 30px!important;
+        line-height: 45px!important;
+    }
+    h3 {
+        font-size: 20px!important;
+        line-height: 30px!important;
+    }
+    h4 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    h5 {
+        font-size: 17px!important;
+        line-height: 27px!important;
+    }
+    p{
+        font-size: 15px!important;
+        line-height: 20px!important;
+    }
+    
+    /* Banner */
+    main {
+        margin: 0 15px;
+    }
+    .banner_bg {
+        max-width: 100%;
+        height: 400px!important;
+    }
+
+    /* Testdrive */
+    .testdrive {
+        max-width: 100%!important;
+        margin: 0 15px!important;
+        padding: 70px 30px !important;
+        text-align: center;
+    }
+    .col-4.tab_screen {
+        width: 100%!important;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .testdrive .col-3 {
+        width: 31%!important;
+    }
+    .drive_icon {
+        margin: 0 auto 20px!important;
+    }
+    .drive_icon img {
+        width: 100px;
+    }
+    .testdrvie_content {
+        padding: 0!important;
+    }
+
+    /* About */
+    .about_section {
+        margin: 0 15px;
+        padding: 60px 0px!important;
+    }
+    .about_row {
+        max-width: 100%!important;
+        padding: 0 30px;
+    }
+    .about_row .col-2 {
+        width: 48%!important;
+    }
+
+    /* Customers */
+    .customers {
+        margin: 0 15px!important;
+        padding: 70px 30px!important;
+    }
+    .customers .col-4 {
+        width: 100%!important;
+        text-align: center;
+    }
+    .customers .col-8 {
+        width: 100%!important;
+    }
+    .customers_icon img{
+        width: 175px;
+    }
+
+    /* Measure */
+    .measure {
+        padding: 70px 0px!important;
+    }
+    .measure_row {
+        padding: 0 30px!important;
+        margin: 0 15px!important;
+    }
+    .measure_icon {
+        margin: 0 auto 20px!important;
+        width: 65px!important;
+    }
+    .measure_box {
+        padding: 20px 10px!important;
+    }
+
+    /* Partner */
+    .partner_with_us {
+        margin: 0 15px;
+        padding: 70px 0!important;
+    }
+    .partner_row {
+        max-width: 100%!important;
+        padding: 0 30px;
+        display: block!important;
+        text-align: center;
+    }
+    .partner_row .col-4 {
+        width: 100%!important;
+    }
+    .partner_row .col-8 {
+        width: 94%!important;
+    }
+    .partner_icon {
+        padding: 15px 0!important;
+    }
+
+    /* Waiting */
+    .waiting_section {
+        padding: 0px 0!important;
+    }
+    .waiting_row {
+        background-position: center!important;
+        padding: 0 30px;
+    }
+    .waiting_row .col-6 {
+        padding: 10% 2%!important;
+    }
+
+    /* Footer */
+    footer {
+        padding: 40px 0px 0!important;
+    }
+    .footer_row {
+        margin: 0 15px!important;
+        padding: 0 30px;
+    }
+    .copy_row {
+        margin: 0 15px 30px!important;
+        padding: 0 30px;
+    }
+    .col-6.copyright {
+        width: 70%;
+    }
+    a.footer_phone {
+        font-size: 14px!important;
+    }
+
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1239px){
+    
+    /* Banner */
+    main {
+        margin: 0 15px;
+    }
+    .banner_bg {
+        width: 100%!important;
+        height: 525px!important;
+    }
+    .banner_inner {
+        padding: 0 40px!important;
+    }
+
+    /* Testdrive */
+    .testdrive {
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 15px!important;
+        padding: 70px 0px 70px!important;
+    }
+    .testdrvie_content {
+        padding: 0!important;
+    }
+    .testdrive .col-4 {
+        width: 23.5%!important;
+    }
+    .drive_icon img {
+        width: 100px;
+    }
+
+    /* About */
+    .about_row {
+        margin: 0 15px!important;
+    }
+    .about_section {
+        padding: 60px 0px!important;
+    }
+
+
+    /* Customers */
+    .customers {
+        margin: 0 15px!important;
+        align-items: center!important;
+        justify-content: center!important;
+        padding: 70px 0 70px!important;
+    }
+    .customers .col-4 {
+        width: 36%!important;
+    }
+
+    /* Measure */
+    .measure {
+        padding: 70px 0px!important;
+    }
+    .measure_row {
+        margin: 0 15px!important;
+    }
+    .measure_icon img {
+        width: 65px;
+    }
+
+
+    /* Partner */
+    .partner_with_us {
+        padding: 70px 0 0!important;
+        margin: 0 15px;
+    }
+    .partner_row {
+        display: block!important;
+    }
+    .partner_row .col-4 {
+        width: 95%!important;
+        text-align: center!important;
+        margin: 0 auto!important;
+    }
+    .partner_row .col-8 {
+        width: 90%!important;
+        margin: 5% auto 0!important;
+    }
+    .partner_icon {
+        padding: 10px 0!important;
+    }
+    .partner_logos_bg {
+        margin-top: 10%!important;
+    }
+
+
+    /* Waiting */
+    footer {
+        padding: 40px 0px 0!important;
+    }
+    .waiting_section {
+        padding: 70px 0px!important;
+    }
+    .waiting_row {
+        background-position: center!important;
+    }
+    .waiting_section {
+        margin: 0 15px!important;
+    }
+
+    /* Footer */
+    .footer_row {
+        margin: 0 15px 30px!important;
+    }
+    .copy_row {
+        margin: 0 15px 30px!important;
+    }
+}
+
+@media only screen and (min-width: 1240px){
+    
 
 }
 

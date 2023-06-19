@@ -149,6 +149,7 @@ nav ul li a::before{
 }
 nav ul li a.active {
     color: #000000;
+    font-weight: 500;
 }
 nav ul li a.active::before {
     position: absolute;
@@ -302,7 +303,7 @@ ul.navbar-list li {
     flex-wrap: wrap;
     max-width: 1230px;
     margin: 0 auto;
-    padding: 70px 0 70px;
+    padding: 70px 15px 70px;
     gap: 1rem;
 }
 .testdrive .col-4{
@@ -340,7 +341,7 @@ ul.navbar-list li {
 /* About Section */
 .about_section {
     background-color: #fffbf2;
-    padding: 60px 0;
+    padding: 60px 15px;
 }
 .about_row {
     display: flex;
@@ -363,7 +364,7 @@ ul.navbar-list li {
     flex-wrap: wrap;
     max-width: 1230px;
     margin: 0 auto;
-    padding: 70px 0 70px;
+    padding: 70px 15px 70px;
     gap: 1rem;
 }
 .customers .col-4{
@@ -408,7 +409,7 @@ ul.navbar-list li {
 /* Measure  */
 .measure {
     background-color: #FAF9FE;
-    padding: 70px 0;
+    padding: 70px 15px;
 }
 .measure_row {
     max-width: 1230px;
@@ -447,7 +448,7 @@ ul.navbar-list li {
 
 /* Partner With Us */
 .partner_with_us {
-    padding: 70px 0;
+    padding: 70px 15px;
 }
 .partner_row {
     max-width: 1230px;
@@ -481,7 +482,7 @@ ul.navbar-list li {
 
 /* Waiting */
 .waiting_section {
-    padding: 70px 0;
+    padding: 70px 15px;
 }
 .waiting_row {
     max-width: 1360px;
@@ -509,7 +510,7 @@ ul.navbar-list li {
 /* Footer */
 footer{
     background-color: #F9F9F9;
-    padding: 40px 0 0;
+    padding: 40px 15px 0;
 }
 .footer_row {
     max-width: 1230px;
@@ -563,4 +564,58 @@ a.footer_phone:hover {
 .fa-brands, .fab {
     font-weight: 400;
     font-size: 18px;
+}
+
+/* about page */
+
+.banner_bg.about_banner {
+    background-color: #F6F4F0;
+    background-image: none;
+    height: 445px;
+    border-radius: 10px;
+}
+.about_banner_img img {
+    width: 585px;
+}
+.about_section.about_page_section {
+    background-color: #fff;
+    padding: 70px 15px;
+}
+.about_page_head {
+    text-align: center;
+    padding: 0 45px 40px;
+}
+
+.we_r_box{
+    text-align: left;
+}
+.we_r{
+    margin:70px 0 0;
+}
+
+.measure.we_offer {
+    background-color: #fff;
+}
+.we_offer_row .col-8{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.we_offer_details {
+    align-items: center;
+    justify-content: center;
+}
+.we_o_box {
+    text-align: right;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 15px 15px 5px;
+    margin: 0;
+}
+.we_o_box_2 {
+    text-align: left;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 15px 15px 5px;
+    margin: 0;
 }
