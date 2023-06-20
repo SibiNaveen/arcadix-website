@@ -201,6 +201,34 @@
     .social_icon ul {
         padding-inline-start: 0px;
     }
+
+
+    /* About Page */
+    .banner_bg.about_banner {
+        display: block;
+        text-align: center;
+        padding: 15% 0px;
+    }
+    .about_page_head {
+        text-align: left!important;
+        padding: 0!important;
+    }
+    .about_content {
+        text-align: left;
+    }
+    .we_r_box {
+        padding: 15px 15px 5px!important;
+    }
+    .we_r {
+        margin: 0 15px!important;
+        border-radius: 10px;
+    }
+    .we_offer_details {
+        margin: 30px 0 0!important;
+    }
+    .we_o_box {
+        text-align: left!important;
+    }
     
 }
 

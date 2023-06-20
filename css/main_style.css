@@ -331,12 +331,12 @@ ul.navbar-list li {
     text-align: center;
     margin: 0 0 20px;
 }
-.box_top_1 {
+/* .box_top_1 {
     margin-top: 15%;
 }
 .box_top_2 {
     margin-top: 4%;
-}
+} */
 
 /* About Section */
 .about_section {
@@ -590,7 +590,10 @@ a.footer_phone:hover {
     text-align: left;
 }
 .we_r{
-    margin:70px 0 0;
+    padding:70px 0;
+}
+.measure_details.we_r_details {
+    margin: 70px 0 0;
 }
 
 .measure.we_offer {
@@ -604,6 +607,7 @@ a.footer_phone:hover {
 .we_offer_details {
     align-items: center;
     justify-content: center;
+    margin: 70px 0 0;
 }
 .we_o_box {
     text-align: right;
@@ -618,4 +622,73 @@ a.footer_phone:hover {
     box-shadow: none;
     padding: 15px 15px 5px;
     margin: 0;
+}
+.measure.looking {
+    background-color: #F6F4F0;
+}
+.measure_row.looking_row .col-12 {
+    text-align: left;
+}
+
+.looking_details{
+    align-items: flex-start;
+    justify-content: center;
+    margin: 50px 0 0;
+}
+.looking_content{
+    background: linear-gradient(90deg, rgba(153,204,0,0.4598214285714286) 0%, rgba(252,169,53,1) 100%);
+    padding: 10%;
+    border-radius: 10px;
+}
+.looking_details .looking_content_box{
+    display: flex;
+    justify-content: end;
+}
+.looking_details h5{
+    font-weight: 700;
+    color: #444f60;
+} 
+.looking_details p{
+    color: #444f60;
+}
+button.looking_CTA {
+    background-color: #fff;
+    border: 0;
+}
+button.looking_CTA:hover {
+    background-color: #99cc00;
+}
+button.brochure{
+    margin-bottom: 40px;
+}
+
+
+
+/* Customers_page */
+.measure.customers_page {
+    background-color: #fff;
+}
+.customers_page_row .col-8{
+   text-align: center;
+   margin: 0 auto;
+}
+.customers_page_img {
+    padding: 15% 5%;
+    text-align: center;
+    margin-top: -100px;
+    background-color: #fff;
+    border-bottom: 2px solid #99CC00;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%);
+}
+.measure_box.customers_page_box {
+    background-color: #F7F7F7;
+    box-shadow: none;
+    margin-bottom: 6.2rem;
+}
+.customers_page_details {
+    margin: 15% 0 -150px;
+}
+.measure_box.customers_page_box.box_top_2 {
+    margin-top: 7%;
 }
