@@ -208,6 +208,7 @@
         display: block;
         text-align: center;
         padding: 15% 0px;
+        height: 100%!important;
     }
     .about_page_head {
         text-align: left!important;
@@ -229,7 +230,19 @@
     .we_o_box {
         text-align: left!important;
     }
+
+
+    /* Our Customers */
+    .banner_bg.about_banner.customers_banner {
+        padding: 15% 0 0;
+    }
     
+    .banner_bg.about_banner.customers_banner .col-2 {
+        margin-bottom: 40px!important;
+    }
+    .customers_page_details {
+        margin: 40% 0 -100px!important;
+    }
 }
 
 
