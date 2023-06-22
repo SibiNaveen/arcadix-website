@@ -734,6 +734,86 @@ button.brochure{
 
 .contact_form_area {
     background-color: #F6F4F0;
-    padding: 30px;
+    padding: 60px 60px 70px;
     border-radius: 10px;
 }
+
+/* Form */
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea{
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border-bottom: 1px solid #C8C8C8;
+  margin: 0 0 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+textarea{
+  height: 120px;
+}
+
+.form_radio_1{
+    text-align: left;
+    margin: 0 1% 15px;
+  }
+  .form_name_1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .form_name_2{
+    width: 48%;
+  }
+
+
+  /* Tab */
+  .tab_section{
+    background-color: #fff;
+    padding: 70px 15px;
+  }
+  .tab_row {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+}
+.tab {
+    background-color: #f6f4f0;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #f6f4f0;
+}
+
+.tab button.active {
+    background-color: #ededed;
+    border-bottom: 1px solid #000;
+}
+.tabcontent {
+    background-color: #ededed;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+    border-radius: 0px 10px 10px 0px;
+}
+
