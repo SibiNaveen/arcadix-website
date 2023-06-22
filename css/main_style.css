@@ -692,3 +692,48 @@ button.brochure{
 .measure_box.customers_page_box.box_top_2 {
     margin-top: 7%;
 }
+
+
+/* Our Partners */
+.partners_page_details {
+    margin: 5% 0 -90px;
+}
+.measure_box.partners_box {
+    text-align: left;
+}
+.measure_box.partners_box a {
+    color: #000;
+    text-decoration: none;
+}
+.measure_box.partners_box a:hover {
+    color: #99CC00;
+}
+
+
+/* Contact Us */
+.measure.contact_area {
+    background-color: #fff;
+    padding: 0 15px 55px;
+}
+
+.contact_page_icon ion-icon {
+    width: 2em;
+    height: 2em;
+    margin: 10px 0;
+    color: #99cc00;
+}
+.measure_box.contact_page_box {
+    height: 185px;
+}
+.contact_content_box a{
+    color: #000000;
+}
+.contact_content_box a:hover{
+    color: #99cc00;
+}
+
+.contact_form_area {
+    background-color: #F6F4F0;
+    padding: 30px;
+    border-radius: 10px;
+}

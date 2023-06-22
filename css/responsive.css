@@ -243,6 +243,13 @@
     .customers_page_details {
         margin: 40% 0 -100px!important;
     }
+
+    /* Best Partners */
+    .measure.partners_page {
+        background-color: #fff;
+        padding: 0 0 150px !important;
+    }
+
 }
 
 
@@ -458,6 +465,15 @@
         font-size: 14px!important;
     }
 
+
+    /* Our Partners */
+    .partners_page_details {
+        margin: 5% 0 -25px!important;
+    }
+    .partners_page_icon img{
+        width: 100%!important;
+    }
+
 }
 
 
@@ -569,6 +585,11 @@
     }
     .copy_row {
         margin: 0 15px 30px!important;
+    }
+
+    /* Our Partners */
+    .partners_page_icon img{
+        width: 155px!important;
     }
 }
 
