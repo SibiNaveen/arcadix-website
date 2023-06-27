@@ -1,5 +1,21 @@
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0.4rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #ebebeb;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b9b9b9;
+    border-radius: 100vh;
+    border: 1px solid #ebebeb;
+    transition: all .5s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #747474;
 }
 
 body {
@@ -763,27 +779,27 @@ textarea{
     text-align: left;
     margin: 0 1% 15px;
   }
-  .form_name_1{
+.form_name_1{
     display: flex;
     justify-content: space-between;
-  }
-  .form_name_2{
+}
+.form_name_2{
     width: 48%;
-  }
+}
 
 
-  /* Tab */
-  .tab_section{
+/* Tab */
+.tab_section{
     background-color: #fff;
     padding: 70px 15px;
-  }
-  .tab_row {
+}
+.tab_row {
     max-width: 1230px;
     margin: 0 auto;
     display: flex;
 }
 .tab {
-    background-color: #f6f4f0;
+    background-color: #fff;
     width: 30%;
     border-radius: 10px 0 0 10px;
 }
@@ -799,6 +815,7 @@ textarea{
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px;
+    font-weight: 500;
 }
 
 .tab button:hover {
@@ -806,14 +823,17 @@ textarea{
 }
 
 .tab button.active {
-    background-color: #ededed;
-    border-bottom: 1px solid #000;
+    background-color: #f6f4f0;
+    border-bottom: 1px solid #99CC00;
+    color: #99CC00;
+    font-weight: 600;
 }
 .tabcontent {
-    background-color: #ededed;
+    background-color: #f6f4f0;
     padding: 30px;
     width: 70%;
-    height: auto;
-    border-radius: 0px 10px 10px 0px;
+    height: 755px;
+    border-radius: 10px;
+    overflow-x: auto;
 }
 

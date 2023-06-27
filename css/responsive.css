@@ -327,6 +327,44 @@
     nav{
         display: none;
     }
+    .tab_section{
+        display: none;
+    }
+    .accordion_tab {
+        max-width: 100%!important;
+        display: block!important;
+        margin: 0 15px!important;
+        padding: 8% 0px 50px;
+    }
+    .accordion {
+        background-color: #eee;
+        color: #444F60;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+        transition: 0.4s;
+        margin-bottom: 15px;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #f5f4f0;
+        color: #99cc00;
+        border-bottom: 1px solid;
+      }
+      
+      .panel {
+        padding: 15px 20px;
+        display: none;
+        background-color: #f5f4f0;
+        overflow: hidden;
+        margin: -15px 0 15px;
+      }
+  
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
@@ -637,8 +675,10 @@
     }
 }
 
-@media only screen and (min-width: 1240px){
-    
+@media only screen and (min-width: 960px){
+    .accordion_tab{
+        display: none;
+    }
 
 }
 
