@@ -43,3 +43,18 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// Mail
+
+// function sendEmail(){
+//   Email.send({
+//       SecureToken : "2cfd6945-9fa5-4e61-a85a-5ffd32355c4a",
+
+//       To : 'unsibin@gmail.com',
+//       From : document.getElementById("email").value,
+//       Subject : "Contact Page Form",
+//       Body : "And this is the body"
+//   }).then(
+//   message => alert(message)
+//   );
+// }

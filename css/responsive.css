@@ -127,6 +127,9 @@
     .measure_details{
         display: block!important;
     }
+    .measure.customers_page {
+        margin: 0px!important;
+    }
 
     /* Partner */
     .partner_with_us {
@@ -474,6 +477,10 @@
     .measure_box {
         padding: 20px 10px!important;
     }
+    
+    .measure_box.customers_page_box {
+        height: 230px!important;
+    }
 
     /* Partner */
     .partner_with_us {
@@ -494,6 +501,13 @@
     }
     .partner_icon {
         padding: 15px 0!important;
+    }
+    .measure_box.partners_box {
+        height: auto!important;
+    }
+    .measure_icon.partners_page_icon {
+        height: auto!important;
+        width: 80%!important;
     }
 
     /* Waiting */
@@ -550,6 +564,8 @@
         gap: 1rem!important;
         justify-content: flex-start!important;
     }
+
+
 
 }
 
@@ -640,6 +656,9 @@
     .partner_logos_bg {
         margin-top: 10%!important;
     }
+    .measure_box.partners_box {
+        height: auto!important;
+    }
 
 
     /* Waiting */
@@ -681,4 +700,15 @@
     }
 
 }
+@media only screen and (min-width: 768px){
 
+
+}
+@media only screen and (min-width: 960px) and (max-width: 1039px){
+    .testdrive_box{
+        height: 400px!important;
+    }
+    .measure_box.customers_page_box {
+        height: 250px!important;
+    }
+}
