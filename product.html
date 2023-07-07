@@ -8,9 +8,12 @@
     <link rel="icon" type="image/x-icon" href="/img/Logo_32x32.png">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/main_style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -160,8 +163,33 @@
                     <li><a href="/about.html" >Company</a></li>
                     <li><a href="/partners.html">Partner</a></li>
                     <li><a href="/contact-us.html">Contact Us</a></li>
-                    <li><button>Customer Portal</button></li>
+                    <li class="menu_btn">
+                        <a href="#popup1"><button>Customer Portal</button></a>
+                    </li>
                 </ul>
+                <!-- popup -->
+                <!-- <div id="popup1" class="overlay">
+                    <div class="popup_new">
+                        <h3>Customer portal</h3>
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                            <p>The customer portal is the electronic interface between our customers and our customer service.</p>
+                            <p>
+                                We look forward to establishing contact with you!<br>
+                                <a href="/contact-us.html">Then please contact us.</a>
+                            </p>
+            
+                            <p>
+                                <strong>Remote Support Tool</strong><br>
+                                Start the tool for online support and software presentation directly on your PC.<br>
+                                You can get the session number from our staff.<br>
+                                <a href="NV_Meet_Participant_EN.exe" target="_blank">
+                                    Download here and start.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
             </nav>
             <!-- Mobile Menu -->
             <div class="navbar">
@@ -172,7 +200,7 @@
                     <li><a href="/about.html">Company</a></li>
                     <li><a href="/partners.html">Partner</a></li>
                     <li><a href="/contact-us.html">Contact Us</a></li>
-                    <li><button>Customer Portal</button></li>
+                    <!-- <li><button>Customer Portal</button></li> -->
                 </ul>
             </div>
             <div class="mobile_navbar_btn">
@@ -181,6 +209,31 @@
             </div>
 
         </header>
+
+        <!-- popup -->
+        <div id="popup1" class="overlay">
+            <div class="popup_new">
+                <h3>Customer portal</h3>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <p>The customer portal is the electronic interface between our customers and our customer service.</p>
+                    <p>
+                        We look forward to establishing contact with you!<br>
+                        <a href="/contact-us.html">Then please contact us.</a>
+                    </p>
+    
+                    <p>
+                        <strong>Remote Support Tool</strong><br>
+                        Start the tool for online support and software presentation directly on your PC.<br>
+                        You can get the session number from our staff.<br>
+                        <a href="NV_Meet_Participant_EN.exe" target="_blank">
+                            Download here and start.
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <!-- Banner -->
         <main>
             <div class="banner_bg about_banner customers_banner">
@@ -190,7 +243,7 @@
                             Here Are Some Of<br> Solutions Suiting <br> Your Education Testing
                         </h2>
                         <div class="cta_buttons">
-                            <button>Customer Portal</button>
+                            <a href="#popup1"><button>Customer Portal</button></a>
                         </div>
                     </div>
                 </div>
@@ -686,9 +739,10 @@
             <div class="footer_copy_area">
                 <div class="copy_row">
                     <div class="col-6 copyright">
-                        <p>Copyright © 2023 Arcadix.com. All rights reserved.</p>
+                        <!-- <p>Copyright © 2023 Arcadix.com. All rights reserved.</p> -->
+                        <p>Arcadix GmbH - <a href="mailto:info@arcadix.com"> info@arcadix.com</a> - © Arcadix GmbH 2005 - 2023</p>
                     </div>
-                    <div class="col-6">
+                    <!-- <div class="col-6">
                         <div class="social_icon">
                             <ul>
                                 <li> <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> </li>
@@ -697,7 +751,7 @@
                                 <li> <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a> </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>

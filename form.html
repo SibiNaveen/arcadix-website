@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadix</title>
+    <link rel="icon" type="image/x-icon" href="/img/Logo_32x32.png">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body> 
+
+    <!-- popup screen -->
+
+    <!-- <button class="open-button" onclick="openForm()">Open Form</button>
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div> -->
+
+      <div class="box">
+        <a href="#popup1">Let me Pop up</a>
+    </div>
+    
+    <div id="popup1" class="overlay">
+        <div class="popup_new">
+            <h3>Customer portal</h3>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p>The customer portal is the electronic interface between our customers and our customer service.</p>
+                <p>
+                    We look forward to establishing contact with you!<br>
+                    <a href="/contact-us.html">Then please contact us.</a>
+                </p>
+
+                <p>
+                    <strong>Remote Support Tool</strong><br>
+                    Start the tool for online support and software presentation directly on your PC.<br>
+                    You can get the session number from our staff.<br>
+                    <a href="NV_Meet_Participant_EN.exe" target="_blank">
+                        Download here and start.
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ 
+<!-- <div style="width: 40%; margin: 0 auto; padding: 70px 0 0;">
+
+    <h3>Get in Touch</h3>
+
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <input type="text" id="phone" placeholder="Phone" required>
+    <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+
+
+</div> -->
+
+ <!-- Contact Form Area -->
+        <!-- <div class="measure contact_area">
+            <div class="measure_row">
+                <div class="contact_form_area">
+                    <div class="col-12">
+                        <div class="form_head" style="margin-bottom: 30px;">
+                            <h3>We Look Forward <br>To Hearing From You</h3>
+                        </div>
+                        <div class="form">
+                            <form onsubmit="sendEmail(); resest(); return false;">
+                                <div style="margin-bottom: 30px;">
+                                    <div>
+                                        <input type="checkbox" id="nehmen" name="nehmen"/>
+                                        <label for="nehmen">Nehmen Sie mit mir Kontakt auf </label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="senden" name="senden"/>
+                                        <label for="senden">Senden Sie mir Unterlagen </label>
+                                    </div>
+                                </div>
+
+                                <textarea id="message" placeholder="Describe yourself here..."></textarea>
+                                
+                                
+                                <div class="form_radio_1">
+                                    <p>Anrede</p>
+                                    <input type="radio" name="gender" value="male"/>Herr
+                                    <input type="radio" name="gender" value="female"/>Frau
+                                </div>
+
+                                <div class="form_name_1">
+                                    <div class="form_name_2">
+                                        <input type="text" id="first-name" name="first-name" required placeholder="Name"/>
+                                    </div>
+                                    <div class="form_name_2">
+                                        <input type="text" id="second-name" name="second-name" required placeholder="Vorname"/>
+                                    </div>
+                                </div>
+
+                                <input type="text" id="function" name="function" required placeholder="Funktion"/>
+                              
+                                <input type="text" id="organisation" name="organisation" required placeholder="Organisation"/>
+                             
+                                <input type="text" id="adresse" placeholder="Adresse"/>
+                    
+                                <div class="form_name_1">
+                                    <div class="form_name_2">
+                                        <input type="number" id="PLZ" name="PLZ" placeholder="PLZ"/>
+                                    </div>
+                                    <div class="form_name_2">
+                                        <input type="text" id="Ort" name="Ort" required placeholder="Ort"/>
+                                    </div>
+                                </div>
+                       
+                                <input type="text" id="Land" name="Land" required placeholder="Land"/>
+
+                                <div class="form_name_1">
+                                    <div class="form_name_2">
+                                        <input type="email" id="email" name="email" required placeholder="example@example.com"/>
+                                    </div>
+                                    <div class="form_name_2">
+                                        <input type="tel" id="phone" name="phone" required placeholder="Telefon"/>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="form_button">Send a Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      -->
+
+    <!-- Script -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+    </script> -->
+
+
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/dc6c9de6db.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

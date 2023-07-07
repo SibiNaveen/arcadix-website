@@ -58,3 +58,13 @@ for (i = 0; i < acc.length; i++) {
 //   message => alert(message)
 //   );
 // }
+
+// popup
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
