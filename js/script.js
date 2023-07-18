@@ -1,5 +1,5 @@
 const mobile_nav = document.querySelector(".mobile_navbar_btn");
-const nav_header = document.querySelector(".header")
+const nav_header = document.querySelector(".header");
 
 const toggleNavbar = () =>{
     // alert("Hello World")
@@ -63,8 +63,36 @@ for (i = 0; i < acc.length; i++) {
 
 function openForm() {
   document.getElementById("myForm").style.display = "block";
-}
+};
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
-}
+};
+
+
+// Scroll To Top Bottom
+let calcScrollValue = () => {
+  let scrollProgress = document.getElementById("progress");
+  let progressValue = document.getElementById("progress-value");
+
+  let pos = document.documentElement.scrollTop;
+  let calcHeight = 
+    document.documentElement.scrollHeight - 
+    document.documentElement.clientHeight;
+  let scrollValue = Math. round((pos * 100) / calcHeight );
+  
+  if (pos > 100){
+    scrollProgress.style.display = "grid";
+  } else{
+    scrollProgress.style.display = "none";
+  }
+
+  scrollProgress.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+  } );
+
+};
+
+
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;
