@@ -80,7 +80,7 @@ h3 {
 }
 h5 {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 28px;
 }
 h4{
@@ -828,9 +828,9 @@ button.brochure{
 .customers_page_details {
     margin: 15% 0 -150px;
 }
-.measure_box.customers_page_box.box_top_2 {
-    /* margin-top: 7%; */
-}
+/* .measure_box.customers_page_box.box_top_2 {
+     margin-top: 7%; 
+} */
 
 
 /* Our Partners */
