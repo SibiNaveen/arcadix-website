@@ -316,63 +316,63 @@
                             <h3>We Look Forward <br>To Hearing From You</h3>
                         </div>
                         <div class="form">
-                            <form onsubmit="sendEmail(); resest(); return false;">
+                            <form>
                                 <div style="margin-bottom: 30px;">
                                     <div>
-                                        <input type="checkbox" id="nehmen" name="nehmen"/>
+                                        <input type="checkbox" id="nehmen" name="nehmen" data-cy="please-contact-me"/>
                                         <label for="nehmen">Nehmen Sie mit mir Kontakt auf </label>
                                     </div>
                                     <div>
-                                        <input type="checkbox" id="senden" name="senden"/>
+                                        <input type="checkbox" id="senden" name="senden" data-cy="send-me-documents"/>
                                         <label for="senden">Senden Sie mir Unterlagen </label>
                                     </div>
                                 </div>
 
-                                <textarea id="message" placeholder="Describe yourself here..."></textarea>
+                                <textarea id="message" placeholder="Describe yourself here..." data-cy="message"></textarea>
                                 
                                 
                                 <div class="form_radio_1">
                                     <p>Anrede</p>
-                                    <input type="radio" name="gender" value="male"/>Herr
-                                    <input type="radio" name="gender" value="female"/>Frau
+                                    <input type="radio" name="gender" value="male" data-cy="male"/>Herr
+                                    <input type="radio" name="gender" value="female" data-cy="female"/>Frau
                                 </div>
 
                                 <div class="form_name_1">
                                     <div class="form_name_2">
-                                        <input type="text" id="first-name" name="first-name" required placeholder="Name"/>
+                                        <input type="text" id="first-name" name="first-name" required placeholder="Name" data-cy="first-name"/>
                                     </div>
                                     <div class="form_name_2">
-                                        <input type="text" id="second-name" name="second-name" required placeholder="Vorname"/>
+                                        <input type="text" id="second-name" name="second-name" required placeholder="Vorname" data-cy="second-name"/>
                                     </div>
                                 </div>
 
-                                <input type="text" id="function" name="function" required placeholder="Funktion"/>
+                                <input type="text" id="function" name="function" required placeholder="Funktion" data-cy="function"/>
                               
-                                <input type="text" id="organisation" name="organisation" required placeholder="Organisation"/>
+                                <input type="text" id="organisation" name="organisation" required placeholder="Organisation" data-cy="organisation"/>
                              
-                                <input type="text" id="adresse" placeholder="Adresse"/>
+                                <input type="text" id="adresse" placeholder="Adresse" data-cy="adresse"/>
                     
                                 <div class="form_name_1">
                                     <div class="form_name_2">
-                                        <input type="number" id="PLZ" name="PLZ" placeholder="PLZ"/>
+                                        <input type="number" id="PLZ" name="PLZ" placeholder="PLZ" data-cy="plz"/>
                                     </div>
                                     <div class="form_name_2">
-                                        <input type="text" id="Ort" name="Ort" required placeholder="Ort"/>
+                                        <input type="text" id="Ort" name="Ort" required placeholder="Ort" data-cy="ort"/>
                                     </div>
                                 </div>
                        
-                                <input type="text" id="Land" name="Land" required placeholder="Land"/>
+                                <input type="text" id="Land" name="Land" required placeholder="Land" data-cy="land"/>
 
                                 <div class="form_name_1">
                                     <div class="form_name_2">
-                                        <input type="email" id="email" name="email" required placeholder="example@example.com"/>
+                                        <input type="email" id="email" name="email" required placeholder="example@example.com" data-cy="email"/>
                                     </div>
                                     <div class="form_name_2">
-                                        <input type="tel" id="phone" name="phone" required placeholder="Telefon"/>
+                                        <input type="tel" id="phone" name="phone" required placeholder="Telefon" data-cy="phone"/>
                                     </div>
                                 </div>
 
-                                <button type="submit" class="form_button">Send a Message</button>
+                                <button type="submit" class="form_button" data-cy="submit">Send a Message</button>
                             </form>
                         </div>
                     </div>
