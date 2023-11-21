@@ -396,7 +396,7 @@ span.bg_animation img{
 
 @keyframes hero-dot-1 {
     0% {
-        transform: translateY(-100px);
+        transform: translateY(-80px);
     }
     100% {
         transform: translateY(0);
@@ -598,7 +598,7 @@ span.bg_animation img{
 .waiting_row {
     max-width: 1360px;
     margin: 0 auto;
-    background-image: url(/img/Home_CTA_Bg.jpg);
+    background-image: url(/img/Home_CTA_Bg-min-min.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
