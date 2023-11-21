@@ -388,7 +388,7 @@ span.bg_animation img{
     position: absolute;
     left: -20px;
     bottom: 0;
-    top: 30px;
+    top: 0px;
     width: 40px;
     z-index: -1;
     -webkit-animation: hero-dot-1 2s linear 0s infinite alternate;
