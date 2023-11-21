@@ -387,7 +387,8 @@ span.bg_animation img{
 .banner_img_bg{
     position: absolute;
     left: -20px;
-    bottom: 0;
+    /* bottom: 0; */
+    top: 60px;
     width: 40px;
     z-index: -1;
     -webkit-animation: hero-dot-1 2s linear 0s infinite alternate;
@@ -396,10 +397,10 @@ span.bg_animation img{
 
 @keyframes hero-dot-1 {
     0% {
-        transform: translateY(-80px);
+        transform: translateY(0px);
     }
     100% {
-        transform: translateY(0);
+        transform: translateY(40);
     }
 }
 
